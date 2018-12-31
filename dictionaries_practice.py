@@ -1,11 +1,16 @@
-Chris = {}
-Chris['age'] = 33
-Chris['full name'] = "Christopher Greco"
-Chris['birthday'] = "December 28th"
-Chris['city'] = "rockville centre"
+# three major rivers dictionary
 
-print("Chris is a young man from",Chris['city'].title() + ". He is",
-		Chris['age'],"years old. His birthday is",Chris['birthday'] + ".")
-		
+rivers = {"nile":"egypt","amazon":"brazil","thames":"london"}
 
+for key, value in rivers.items():
+	print("The " + key.title() + " runs through " + value.title() + ".")
+
+for river in rivers.values():
+	print(river.title())
+	
+for river in rivers:
+	print(river.title())
+	
+	
+	
 

@@ -14,7 +14,8 @@ while layer < size:
 	print("|   |" * size)
 	layer += 1
 	
-print(" --- " * size
+print(" --- " * size)
+
 
 
 
