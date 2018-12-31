@@ -1,16 +1,12 @@
-# three major rivers dictionary
+#People
 
-rivers = {"nile":"egypt","amazon":"brazil","thames":"london"}
+people = []
 
-for key, value in rivers.items():
-	print("The " + key.title() + " runs through " + value.title() + ".")
+person_0 = {"name":"Christopher Greco","age":"35","city":"Rockville Centre"}
+person_1 = {"name":"Jenna","age":"33","city":"Oceanside"}
 
-for river in rivers.values():
-	print(river.title())
-	
-for river in rivers:
-	print(river.title())
-	
-	
-	
+people = (person_0,person_1)
 
+for person in people:
+	print(person["name"] + " is " + person["age"] + " years old and "
+			"lives in " + person["city"] + ".")
