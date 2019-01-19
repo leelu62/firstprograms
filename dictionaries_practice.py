@@ -9,4 +9,4 @@ people = (person_0,person_1)
 
 for person in people:
 	print(person["name"] + " is " + person["age"] + " years old and "
-			"lives in " + person["city"] + ".")
+			"lives in " + person["city"] + ".")	
